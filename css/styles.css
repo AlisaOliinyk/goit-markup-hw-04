@@ -146,7 +146,9 @@ address {
 .header-contact {
     display: flex;
     gap: 40px;
-    margin-left: 354px;
+    margin-left: 318px;
+    align-items: center;
+    
 }
 
 .header-contact .contact {
@@ -156,6 +158,8 @@ address {
         line-height: 1.143;
         letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .header-contact .contact:hover,
@@ -169,13 +173,36 @@ address {
         font-size: 14px;
         line-height: 1.143;
         letter-spacing: 0.02em;
-        text-decoration: none;  
+        text-decoration: none; 
+        display: flex; 
+        align-items: center;
 }
 
 .header-contact .contact-icon:hover,
 .header-contact .contact-icon:focus {
      color: #000000;
 }
+
+.icon-envelope {
+    fill: var(--accent-color);
+    margin-right: 10px;
+}
+
+.header-contact .icon-envelope:hover,
+.header-contact .icon-envelope:focus {
+    fill: #000000;
+}
+
+.icon-smartphone {
+    fill: var(--title-text-color);
+    margin-right: 10px;
+}
+.header-contact .icon-smartphone:hover,
+.header-contact .icon-smartphone:focus {
+    fill: #000000;
+}
+
+
 /* main */
 /* hero section */
 
@@ -303,6 +330,28 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin-right: 0px;
 }
 
+.item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+ 
+/* .item-icon:hover,
+.item-icon:focus {
+    border: solid, var(--accent-color);
+}  */
+
+
+.item-icon .icon-advantages:hover,
+.item-icon .icon-advantages:focus {
+    fill: var(--accent-color);
+} 
+
     /* our team */
 
     .title-section-team {
@@ -316,8 +365,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             letter-spacing: 0.03em;
 
     }
-
-
 
 
     .section-team {
@@ -363,6 +410,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     .list-team:last-child {
      margin-right: 0px;
     }
+
+.social-box list {
+    display: flex;
+    padding: 16px 32px 0px 32px;
+}
+
+
     
  
     /* footer */
