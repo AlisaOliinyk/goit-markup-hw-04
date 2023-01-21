@@ -166,6 +166,8 @@ address {
 .header-contact .contact:focus {
     color: var(--accent-color)
 }
+
+ 
  
 .header-contact .contact-icon {
     color: var(--title-text-color);
@@ -188,8 +190,8 @@ address {
     margin-right: 10px;
 }
 
-.header-contact .icon-envelope:hover,
-.header-contact .icon-envelope:focus {
+.header-contact .contact .icon-envelope:hover,
+.header-contact .contact .icon-envelope:focus {
     fill: var(--accent-color);
 }
 
@@ -528,14 +530,16 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  
  
  .footer {
+    padding: 60px 0;
     background-color: #2F303A;
  }
  
- .container-footer {
+ /* .container-footer {
+    align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
     
- }
+ } */
 
  .footer-contact {
     display: block;
@@ -575,15 +579,55 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         letter-spacing: 0.03em;
         text-decoration: none;
 }
+
+.footer .footer-contact:hover,
+.footer .footer-contact:focus {
+    color: var(--accent-color)
+}
 .footer .footer-contact-email:hover,
 .footer .footer-contact-email:focus {
-    color: #000000;
+    color: var(--accent-color);
 }
 
 .footer .footer-contact-phone:hover,
 .footer .footer-contact-phone:focus {
-    color: #000000; 
+    color: var(--accent-color); 
 }
+
+
+
+.footer-flex {
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.link-box {
+    margin-left: 70px;
+}
+
+
+.footer-title {
+    margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+.social-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer .social-icon {
+    fill: #FFFFFF;
+}
+.footer .social-list {
+    margin-top: 0;
+}
+
 
 /* portfolio */
  .button-portfolio .button {
@@ -665,6 +709,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .flex-portfolio {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     /* background: #F5F5F5; */
    
@@ -672,6 +718,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .flex-list {
+
     width: calc((100% - 60px)/3);
     border: 1px solid #EEEEEE;
     background: #FFFFFF;
@@ -703,5 +750,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 
  .flex-cart {
-    
+    display: inline-block;
+    text-decoration: none;
+ }
+ .flex-cart:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
  }
