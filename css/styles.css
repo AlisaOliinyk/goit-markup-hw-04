@@ -113,8 +113,6 @@ address {
  
  .header-menu {
     display: flex;
-    /* gap: 50px; */
-    /* margin-right: 50px; */
  }
 
  .nav-menu {
@@ -155,7 +153,6 @@ address {
 
 .header-contact {
     display: flex;
-    /* gap: 40px; */
     margin-left: 318px;
     align-items: center;
     
