@@ -72,7 +72,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    /* gap: 40px; */
 
  }
 
@@ -80,7 +80,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-grow: 1;
+    /* flex-grow: 1; */
  }
 
  
@@ -113,7 +113,16 @@ address {
  
  .header-menu {
     display: flex;
-    gap: 50px;
+    /* gap: 50px; */
+    /* margin-right: 50px; */
+ }
+
+ .nav-menu {
+    margin-right: 50px;
+ }
+
+ .nav-menu:last-child {
+    margin-right: 0;
  }
 
  .header-menu .link {
@@ -146,11 +155,19 @@ address {
 
 .header-contact {
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     margin-left: 318px;
     align-items: center;
     
 }
+.contact-menu {
+    display: flex;
+    margin-right: 30px;
+}
+.contact-menu:last-child {
+    margin-right: 0;
+}
+
 
 .header-contact .contact {
     color: var(--title-text-color);
