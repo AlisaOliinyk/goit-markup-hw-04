@@ -195,10 +195,10 @@ address {
         align-items: center;
 }
 
-.header-contact .contact-icon:hover,
+ .header-contact .contact-icon:hover,
 .header-contact .contact-icon:focus {
      color: var(--accent-color);
-}
+} 
 
 .icon-envelope {
     fill: currentColor;
@@ -214,10 +214,6 @@ address {
     fill: currentColor;
     margin-right: 10px;
 }
-.header-contact .icon-smartphone:hover,
-.header-contact .icon-smartphone:focus {
-    fill: var(--accent-color);
-}  
 
 
 /* main */
